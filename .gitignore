@@ -1,0 +1,25 @@
+# .gitignore
+
+# Parcel output directory
+dist/
+
+# Parcel cache directory
+.parcel-cache/
+
+# Node.js dependencies
+node_modules/
+
+# Environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Editor-specific directories
+.idea/
+.vscode/
+
+# Backup and temporary files
+*~
+*.bak
+.DS_Store
+Thumbs.db
